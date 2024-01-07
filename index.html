@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Izeetak</title>
+  <!-- BOOTSTRAP CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet">
+    <!-- FONT AWESOME CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- ANIMATE.CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <!-- CUSTOM CSS FILE -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="content">
+    <!-- navbar -->
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-body-brand mt-3 mb-3">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img src="assets/pictures/izeetaklogo.png" class="img-fluid logo" alt="Bootstrap">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+          <div class="offcanvas-header">
+            <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5> -->
+            <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          </div>
+          <div class="offcanvas-body" id="canv">
+            <ul class="navbar-nav justify-content-end flex-grow-1 pe-3" id="one">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="">Home +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="pages.html">Pages +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="blog.html">Blog +</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="contact.html">Contact</a>
+              </li>
+              <li class="nav-item">
+                <a class="btn btn-same" aria-current="page" href="contact.html"> Contact Us <i
+                    class="fas fa-arrow-right"></i></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- /NAVBAR -->
+    <!-- HOME -->
+    <section class="home container-fluid">
+      <section class="row">
+        <section class="col text-center">
+          <h6 class="agency">
+            Business Consulting Agency
+          </h6>
+          <p class="display-5 mt-4 heading hidden anime t-anime " style="--order:1;">
+            Creative & Inteligents People help <span style="--order:2">
+              Growing Business.</span>
+          </p>
+          <p class="agency agencygrey">
+            Lorem ipsum dolor consecteture elite we’re a creative digitalyour business growing we’re a creative
+            digitalyour business growing up.
+          </p>
+          <div class="ourwork">
+            <a href="" class="btn btn-2 btn-same animate__animated animate__fadeInDown">Explore More
+              <i class="fas fa-arrow-right"></i>
+            </a>
+
+            <a href="" class="work animate__animated animate__fadeInDown">
+              <i class="fa-solid fa-play"></i>
+              <span> How we work</span>
+            </a>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!-- TEAM -->
+    <section class="team container-fluid">
+      <section class="row">
+        <section style="--order:1;" class="anime support hidden col-lg-3 col-md-6">
+          <img src="assets/pictures/man.png" alt="">
+          <h5 class="pt-4 pb-3">Great Team</h5>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+        </section>
+        <section style="--order:2;" class="anime support hidden col-lg-3 col-md-6">
+          <img src="assets/pictures/checked.png" alt="">
+          <h5 class="pt-4 pb-3">Trusted Agency</h5>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+        </section>
+        <section style="--order:3;" class="anime support hidden col-lg-3 col-md-6">
+          <img src="assets/pictures/rating.png" alt="">
+          <h5 class="pt-4 pb-3">Top Rated Agency</h5>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+        </section>
+        <section style="--order:4;" class="anime support hidden col-lg-3 col-md-6">
+          <img src="assets/pictures/consult.png" alt="">
+          <h5 class="pt-4 pb-3">Support Alltime</h5>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+        </section>
+      </section>
+    </section>
+    <!-- HELPING HAND -->
+    <section class="hand container-fluid">
+      <section class="row">
+        <section class="col-lg-6 h-img">
+          <img src="assets/pictures/helpinghand.png" alt="" class="img-fluid hidden anime img1">
+        </section>
+        <section class="col-lg-6 h-content">
+          <p class="about">
+            About Agency
+          </p>
+          <p class="display-6 mt-4 heading pe-5 hidden anime t-anime ">
+            A helping hand agency
+            for Business
+          </p>
+          <p class="small">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, seieiusmoed dui too consecteture elite
+            more.According to ipsum dolor seat ameat consecteture elite.
+          </p>
+          <section class="row">
+            <section class="col-lg-4 circol">
+              <div class="circle">
+                <img src="assets/pictures/1.png" alt="">
+                <p>2382+</p>
+              </div>
+              <p class="small">Project Completed</p>
+            </section>
+            <section class="col-lg-4 circol">
+              <div class="circle">
+                <img src="assets/pictures/2.png" alt="">
+                <p>1382+</p>
+              </div>
+              <p class="small">Team Members</p>
+            </section>
+            <section class="col-lg-4 circol">
+              <div class="circle">
+                <img src="assets/pictures/3.png" alt="">
+                <p>2382+</p>
+              </div>
+              <p class="small">Happy Clients</p>
+            </section>
+          </section>
+          <a href="" class="btn btn-2 btn-same">Explore More <i class="fas fa-arrow-right"></i></a>
+        </section>
+      </section>
+    </section>
+    <!-- WHAT WE DO -->
+    <section class="do container-fluid">
+      <section class="extra text-center">
+        <p class="about">
+          What We Do
+        </p>
+        <p class="display-6 mt-4 heading hidden anime t-anime ">
+          We Providing Some Special Services
+          To our Clients.
+        </p>
+      </section>
+      <section class="row">
+        <section class="col-lg-4 wedo anime hidden" style="--order:1">
+          <img src="assets/pictures/business.png" alt="">
+          <h6 class="pt-4 pb-3">Business Analysis</h6>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+          <a href="#">
+            <p class="card6">Explore Service</p>
+          </a>
+        </section>
+        <section class="col-lg-4 wedo anime hidden" style="--order:2">
+          <img src="assets/pictures/finance.png" alt="">
+          <h6 class="pt-4 pb-3">Financial Planning</h6>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+          <a href="#">
+            <p class="card6">Explore Service</p>
+          </a>
+        </section>
+        <section class="col-lg-4 wedo anime hidden" style="--order:3">
+          <img src="assets/pictures/digital.png" alt="">
+          <h6 class="pt-4 pb-3">Digital Marketing</h6>
+          <p class="card6">According to lorem ipsum dolo siti ameat dui too consecteture consecteture elite.</p>
+          <a href="#">
+            <p class="card6">Explore Service</p>
+          </a>
+        </section>
+        <p class="card6 text-center mt-4 ">If you have any project or task for us Please <a href="#"> Contact Us</a>
+        </p>
+      </section>
+    </section>
+    <!--  FAQs -->
+    <section class="faqs container-fluid">
+      <section class="row">
+        <section class="col-lg-6 faq-col">
+          <p class="about">
+            Questions & Answer
+          </p>
+          <p class="display-6 mt-4 heading hidden anime t-anime ">
+            Need anything to ask check
+            Asked Question
+          </p>
+          <div class="accordion" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button first" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                  1. Thinking to boost your business, but don't know how?
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia perspiciatis, facilis iure sit sapiente
+                  in
+                  numquam soluta neque doloremque quaerat?
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo"
+                  aria-expanded="true" aria-controls="collapseTwo">
+                  2. How our expert consulters work?
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. Reiciendis odio ratione in explicabo
+                  repudiandae itaque. Laborum dicta aliquam fuga laboriosam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  3. What are the best tips for the growth of your business?
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus delectus quos saepe aliquam
+                  ipsum suscipit sequi debitis maxime sint nostrum!
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  4. How to improve your business?
+                </button>
+              </h2>
+              <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem reiciendis exercitationem doloremque
+                  fuga officia nulla obcaecati sint ex ratione aliquam.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                  data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                  5. How to advertise your brand?
+                </button>
+              </h2>
+              <div id="collapseFive" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi eum accusamus asperiores ea sequi
+                  dolore at eaque id nemo recusandae.
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="col-lg-6 img-col">
+          <img src="assets/pictures/helpinghand.png" alt="" class="img-fluid anime hidden img2">
+        </section>
+      </section>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section class="portfolio container-fluid">
+      <section class="extra text-center">
+        <p class="about">
+          Portfolio
+        </p>
+        <p class="display-6 mt-4 heading hidden anime t-anime ">
+          Recently done case study by our
+          intelligent team
+        </p>
+      </section>
+      <section class="row p-row">
+        <section class="col-lg-6 col-md-6 col-sm-12">
+          <img src="assets/pictures/chair.png" alt="" class="img-fluid">
+        </section>
+        <section class="col-lg-3 col-md-3 col-sm-12">
+          <img src="assets/pictures/blocks.png" alt="" class="img-fluid">
+        </section>
+        <section class="col-lg-3 col-md-3 col-sm-12">
+          <img src="assets/pictures/vase.png" alt="" class="img-fluid">
+        </section>
+        <!--2nd row for large screens and laptops -->
+        <section class="col-lg-4 secondrow col-md-4 col-sm-12">
+          <img src="assets/pictures/blocks.png" alt="" class="img-fluid">
+        </section>
+        <section class="col-lg-4 secondrow col-md-4 col-sm-12">
+          <img src="assets/pictures/wall.png" alt="" class="img-fluid">
+        </section>
+        <section class="col-lg-4 secondrow col-md-4 col-sm-12">
+          <img src="assets/pictures/clock.png" alt="" class="img-fluid">
+        </section>
+        <a href="" class="btn btn-2 btn-same d-block mx-auto mt-5">Explore More <i class="fas fa-arrow-right"></i></a>
+      </section>
+    </section>
+    <!-- NEWSLETTER -->
+    <section class="news container-fluid">
+      <section class="row">
+        <section class="col-lg-6 n-content">
+          <p class="about ">
+            Newsletter
+          </p>
+          <p class="display-6 mt-4 heading hidden anime t-anime ">
+            To get Our Weekly & Monthly News. Subscribe Newsletter.
+          </p>
+          <input type="text" name="" id="" placeholder="Your e-mail Address">
+          <a href="" class="btn btn-2 btn-same d-block mx-auto mt-5">Subscribe</a>
+        </section>
+        <section class="col-lg-6 n-img">
+          <img src="assets/pictures/sub-right.png" alt="" class="img-fluid">
+        </section>
+      </section>
+    </section>
+    <!-- BLOG -->
+    <section class="blog container-fluid">
+      <section class="extra text-center">
+        <p class="about">
+          Blog
+        </p>
+        <p class="display-6 mt-4 heading anime hidden">
+          See our Latest & Popular Tips & Tricks
+          from our Experts
+        </p>
+      </section>
+      <section class="row">
+        <section class="col-lg-4 col-md-4 blog-col anime hidden" style="--order:1;">
+          <img src="assets/pictures/1blog.jpg" alt="" class="img-fluid">
+          <div class="time">
+            <div class="author">
+              <i class="fa-solid fa-user me-2"></i>
+              <p>Philip Hobs</p>
+            </div>
+            <div class="author">
+              <i class="fa-regular fa-clock me-2"></i>
+              <p> 02feb,2021</p>
+            </div>
+          </div>
+          <a href="#" class="blogname">
+            <h5>How to make money online easily & quickly</h5>
+          </a>
+          <div class="next mt-3">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </section>
+        <section class="col-lg-4 col-md-4 blog-col anime hidden" style="--order:2;">
+          <img src="assets/pictures/2blog.jpg" alt="" class="img-fluid">
+          <div class="time">
+            <div class="author">
+              <i class="fa-solid fa-user me-2"></i>
+              <p>Philip Hobs</p>
+            </div>
+            <div class="author">
+              <i class="fa-regular fa-clock me-2"></i>
+              <p> 02feb,2021</p>
+            </div>
+          </div>
+          <a href="#" class="blogname">
+            <h5>How to grow your business, tips & tricks</h5>
+          </a>
+          <div class="next mt-3">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </section>
+        <section class="col-lg-4 col-md-4 blog-col anime hidden" style="--order:3;">
+          <img src="assets/pictures/3blog.jpg" alt="" class="img-fluid">
+          <div class="time">
+            <div class="author">
+              <i class="fa-solid fa-user me-2"></i>
+              <p>Philip Hobs</p>
+            </div>
+            <div class="author">
+              <i class="fa-regular fa-clock me-2"></i>
+              <p> 02feb,2021</p>
+            </div>
+          </div>
+          <a href="#" class="blogname">
+            <h5>Most profitable business case study tips</h5>
+          </a>
+          <div class="next mt-3">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </section>
+      </section>
+    </section>
+    <!-- TESTIMONIALS -->
+    <section class="founder container-fluid">
+      <section class="row">
+        <section class="col">
+          <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item text-center
+               active">
+                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas consequuntur animi sit quos modi
+                  dicta. Expedita repudiandae quas est saepe consequatur eum incidunt.</h5>
+                <p class="rev-name">Aterdam Steve</p>
+                <h6>Founder</h6>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                  class="fas fa-star"></i> <i class="fas fa-star"></i>
+              </div>
+              <div class="carousel-item text-center
+              ">
+                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas consequuntur animi sit quos modi
+                  dicta. Expedita repudiandae quas est saepe consequatur eum incidunt.</h5>
+                <p class="rev-name">Aterdam Steve</p>
+                <h6>Founder</h6>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                  class="fas fa-star"></i> <i class="fas fa-star"></i>
+              </div>
+              <div class="carousel-item text-center
+              ">
+                <h5>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Voluptas consequuntur animi sit quos modi
+                  dicta. Expedita repudiandae quas est saepe consequatur eum incidunt.</h5>
+                <p class="rev-name">Aterdam Steve</p>
+                <h6>Founder</h6>
+                <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i> <i
+                  class="fas fa-star"></i> <i class="fas fa-star"></i>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying"
+              data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </section>
+      </section>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer container-fluid">
+      <section class="row">
+        <section class="col-lg-4 col-md-6 logo-col">
+          <div class="up">
+            <img src="assets/pictures/izeetaklogo.png" alt="" class="img-fluid mb-3 logo">
+            <p class="footer-p">
+              This is Photoshop's version of LoreiIpsum. Aenean sollicitudin,
+            </p>
+          </div>
+          <div class="last">
+            <p class="footer-p">Address: House 00, Road No : 01, Street address, ABC</p>
+            <p class="footer-p">Phone: +0 123-456-7890</p>
+            <p class="footer-p">Email: info@example.com</p>
+          </div>
+        </section>
+        <section class="col-lg-2 col-md-6 logo-col">
+          <p class="links">Quick Links</p>
+          <a href="#">Tips & Tricks</a>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Portfolio</a>
+        </section>
+        <section class="col-lg-2 col-md-6 logo-col">
+          <p class="links">Helpful Links</p>
+          <a href="#">Tips & Tricks</a>
+          <a href="#">About Us</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Terms & Conditions</a>
+          <a href="#">Portfolio</a>
+        </section>
+        <section class="col-lg-4 col-md-6">
+          <p class="links links2">Instagram</p>
+          <section class="container-fluid insta">
+            <section class="row">
+              <section class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/pictures/clock.png" alt="" class="img-fluid last-img">
+              </section>
+              <section class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/pictures/vase.png" alt="" class="img-fluid last-img">
+              </section>
+              <section class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/pictures/vase.png" alt="" class="img-fluid last-img">
+              </section>
+              <section class="col-lg-6 col-md-6 col-sm-6">
+                <img src="assets/pictures/clock.png" alt="" class="img-fluid last-img">
+              </section>
+            </section>
+          </section>
+        </section>
+      </section>
+      <div class="footer-line">
+        <div class="last-line">
+          <p>&copy; 2020 All Right Reserved, Izeetak</p>
+        </div>
+        <div class="f-icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-instagram"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-youtube"></i>
+        </div>
+      </div>
+      </section>
+      </section>
+      </section>
+    </footer>
+    <div class="cursor"></div>
+    <div class="cursor2"></div>
+
+  </div>
+
+
+  <!-- BOOTSTRAP JS CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+  <!--  CUSTOM JS FILE -->
+  <script src="app.js"></script>
+</body>
+
+</html>
